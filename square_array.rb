@@ -6,7 +6,12 @@ def square_array(array)
   return squared
 end
 
+=begin
+
+#advanced, with .collect
 def square_array(array)
   squared = array.collect {|x| x**2}
   return squared
 end
+
+=end
